@@ -24,7 +24,7 @@ namespace WholesaleEnterprise.DAL
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("Data Source=.\\SQLEXPRESS;Initial Catalog=WholesaleEnterprise1;Integrated Security=True", throwIfV1Schema: false)
+            : base("Data Source=.\\SQLEXPRESS;Initial Catalog=OpenSFA;Integrated Security=True", throwIfV1Schema: false)
         {
 
         }
