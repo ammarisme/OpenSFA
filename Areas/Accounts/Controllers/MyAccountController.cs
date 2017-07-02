@@ -44,13 +44,11 @@ namespace WholesaleEnterprise.Areas.Accounts.Controllers
 
         public MyAccountController()
         {
-            
+            //UStore = new UserStore<ApplicationUser>(db);
+            //UManager = new UserManager<ApplicationUser>(UStore);
 
-            UStore = new UserStore<ApplicationUser>(db);
-            UManager = new UserManager<ApplicationUser>(UStore);
-
-            RStore = new RoleStore<IdentityRole>(db);
-            RManager = new RoleManager<IdentityRole>(RStore);
+            //RStore = new RoleStore<IdentityRole>(db);
+            //RManager = new RoleManager<IdentityRole>(RStore);
 
         }
 
