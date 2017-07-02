@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSFA", "OpenSFA.csproj", "{8764DDBE-2E4C-4FAC-BC6F-59C12772C78C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA_Library", "..\SFALibrary\SFA_Library.csproj", "{2E340BAF-46E0-43B0-AF2F-6036BA9B2810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA_WCF", "..\SFA_WCF\SFA_WCF.csproj", "{DFE65D4F-E98D-4B2A-AF3D-E9F3C6FEADCC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8764DDBE-2E4C-4FAC-BC6F-59C12772C78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8764DDBE-2E4C-4FAC-BC6F-59C12772C78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8764DDBE-2E4C-4FAC-BC6F-59C12772C78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E340BAF-46E0-43B0-AF2F-6036BA9B2810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E340BAF-46E0-43B0-AF2F-6036BA9B2810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E340BAF-46E0-43B0-AF2F-6036BA9B2810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E340BAF-46E0-43B0-AF2F-6036BA9B2810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE65D4F-E98D-4B2A-AF3D-E9F3C6FEADCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE65D4F-E98D-4B2A-AF3D-E9F3C6FEADCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE65D4F-E98D-4B2A-AF3D-E9F3C6FEADCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE65D4F-E98D-4B2A-AF3D-E9F3C6FEADCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
