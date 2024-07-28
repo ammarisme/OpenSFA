@@ -1,5 +1,5 @@
 
-# Project Summary
+# Sales Automation System (C#, WCF)
 
 The Sales Automation System is a comprehensive solution designed to automate various sales processes. The system consists of three main components:
 
